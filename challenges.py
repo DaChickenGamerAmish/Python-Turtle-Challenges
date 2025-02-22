@@ -7,24 +7,44 @@ from shared_turtle import global_turtle as turtle
 # Use the side_length variable to make varying sizes
 
 def challenge_one(side_length):
+    turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(side_length)
     pass
 
 # Challenge 2: Draw a Triangle
 # Make an equilateral triangle
 
-def challenge_two(side_a, side_b, side_c):
+def challenge_two(side_length):
+    turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(25)
+    turtle.left(120)
+    turtle.forward(50)
     pass
 
 # Challenge 3: Draw a Red Circle
-# Use the turtle to draw a red circle
+# Use the turtle to draw a red c
 
 def challenge_three(radius):
+    turtle.begin_fill()
+    turtle.color("Red")
+    turtle.circle(radius)
+    turtle.end_fill()
+
     pass
 
 # Challenge 4: Draw a Star
 # Draw a 5-pointed star with a given size
 
-def challenge_four(size):
+def challenge_four(number_of_sides, side_lengths):
+    for i in range(5):
+        turtle.left(10)
+        turtle.forward(10)
     pass
 
 # Challenge 5: Draw a Polygon
