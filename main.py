@@ -5,7 +5,7 @@ from chosenchallenges import *
 
 def main():
     """Main Function to Run Challenges"""
-    challenge_four(5, 4)
+    chosen_challenge_four()
     pass
 if __name__ == "__main__":
     main()
